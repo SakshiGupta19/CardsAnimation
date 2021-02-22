@@ -1,0 +1,153 @@
+.part1{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 50px 0px 50px;
+}
+
+.cardboxes{
+    filter: drop-shadow(-20px 30px 10px #000);
+    width: 250px;
+    height: 300px;
+    transition: transform 2s;
+    margin-bottom: 100px;
+}
+
+.cardboxes:hover{
+   transform: scale(1.2, 1.2);
+}
+
+.backcard{
+    margin: 150px 0 100px 500px;
+    display: block;
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    transition: transform 2s;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5 ease;
+    -webkit-transform: translateY(-200px);
+    transform: translateY(-200px);
+}
+.part2 .backcard3{
+    -webkit-transition: all 3s ease;
+    transition: all 3s ease;
+    -webkit-transform: rotate(20deg) translateY(-200px);
+    transform: rotate(20deg) translateY(-200px);
+}
+
+.part2 .backcard1{
+    -webkit-transition: all 3s ease;
+    transition: all 3s ease;
+    -webkit-transform: rotate(-20deg) translateY(-200px);
+    transform: rotate(-20deg) translateY(-200px);
+}
+
+.part2 .backcard4{
+    -webkit-transition: all 3s ease;
+    transition: all 3s ease;
+    -webkit-transform: rotate(40deg) translateY(-200px);
+    transform: rotate(40deg) translateY(-200px);
+}
+
+
+.card{
+    display: block;
+    width: 250px;
+    height: 350px;
+    transition: transform 5s;
+    position: absolute;
+    top: 130%;
+    left: 40%;
+    animation-delay: 10s;
+
+}
+
+.card:hover{
+    transform: scale(1.2, 1.2);
+}
+.spread .card1{
+    animation-delay: 10s;
+    animation: mymove1 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+.spread .card2{
+    animation-delay: 10s;
+    animation: mymove2 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+.spread .card3{
+    animation-delay: 10s;
+    animation: mymove2 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+.spread .card4{
+    animation-delay: 10s;
+    animation: mymove4 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+.spread .card5{
+    animation-delay: 10s;
+    animation: mymove5 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+.spread .card6{
+    animation-delay: 10s;
+    animation: mymove6 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+.spread .card7{
+    animation-delay: 10s;
+    animation: mymove7 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+.spread .card8{
+    animation-delay: 10s;
+    animation: mymove8 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+.spread .card9{
+    animation-delay: 10s;
+    animation: mymove9 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+.spread .card10{
+    animation-delay: 10s;
+    animation: mymove10 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+.showimg{
+    width: 300px;
+    height:450px;
+    margin-left:250px;
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgb(247, 247, 247), rgba(241, 241, 241, 0.4));
+}
+@keyframes mymove1 {100% {left:100px; top:800px;}}
+@keyframes mymove2 {100% {left:180px; top:800px;}}
+@keyframes mymove3 {100% {left:260px; top:800px;}}
+@keyframes mymove4 {100% {left:340px; top:800px;}}
+@keyframes mymove5 {100% {left:420px; top:800px;}}
+@keyframes mymove6 {100% {left:500px; top:800px;}}
+@keyframes mymove7 {100% {left:580px; top:800px;}}
+@keyframes mymove8 {100% {left:660px; top:800px;}}
+@keyframes mymove9 {100% {left:740px; top:800px;}}
+@keyframes mymove10 {100%{left:820px; top:800px;}}
+
