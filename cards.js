@@ -1,47 +1,45 @@
-$(function () {
-    'use strict';
-  $('.cardboxes').click(function(){
-      $('#container').show(); })
-      
-  $('#container').click(function(){
-        $('.spread').show();
-    })
- $('.card1').click(function(){
-        $('.displaycard1').show();
-    })
-    $('.card2').click(function(){
-        $('.displaycard2').show();
-    })
-    $('.card3').click(function(){
-        $('.displaycard3').show();
-    })
-    $('.card4').click(function(){
-        $('.displaycard4').show();
-    })
-    $('.card5').click(function(){
-        $('.displaycard5').show();
-    })
-    $('.card6').click(function(){
-        $('.displaycard6').show();
-    })
-    $('.card7').click(function(){
-        $('.displaycard7').show();
-    })
-    $('.card8').click(function(){
-        $('.diplayscard8').show();
-    })
-    $('.card9').click(function(){
-        $('.displaycard9').show();
-    })
-    $('.card10').click(function(){
-        $('.displaycard10').show();
-    })
-  })
+function spreadCards() {
+    var x = document.getElementById("container");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function openCards() {
+    var y = document.getElementById("spread");
+    if (y.style.display === "none") {
+        y.style.display = "block";
+    } else {
+        y.style.display = "none";
+
+    }
+}
+
+function showImage1() {
+    var x = document.getElementById("card1");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    }
+    else {
+        x.style.display = "none";
+
+    }
+}
+
+function showImage2() {
+    var x = document.getElementById("card2");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    }
+    else {
+        x.style.display = "none";
+
+    }
+}
 
 
-     
-
-$('#container').hover(function() {
+$('#container').hover(function () {
     $(this).toggleClass('part2');
-  });
-
+});
